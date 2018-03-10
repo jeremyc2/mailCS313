@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>US Postage</title>
+  </head>
+  <body>
+    <h1>Shipping Cost Estimator</h1><br>
+    <form id="myform" action="/price" method="get">
+      <label for="weight">Choose a weight:</label><br>
+      <input type="text" name="weight" value=""><br>
+      <label for="type">Choose a type:</label><br>
+      <select class="" name="type">
+        <option value="4">Letters (Stamped)</option>
+        <option value="3">Letters (Metered)</option>
+        <option value="2">Large Envelopes (Flats)</option>
+        <option value="1">First-Class Package Service—Retail</option>
+      </select><br>
+      <button type="submit" name="button">Submit</button>
+    </form>
+  </body>
+</html>
